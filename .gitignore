@@ -1,0 +1,4 @@
+/target/*
+/project/target/*
+/.idea/*
+/project/project/target/
