@@ -1,8 +1,10 @@
 package com.scribd.models
 
+import java.sql.Timestamp
+
 import org.apache.spark.sql.Encoders
 
-case class Event(userIp: String, name: String, time: java.lang.Long)
+case class Event(userIp: String, name: String, time: Timestamp)
 
 object Event {
   /*
